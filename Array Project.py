@@ -31,7 +31,7 @@ def createDictionary(FirstName, LastName, Age, Height, PhoneNumber):
     return DictName
 
 
-PersonList.append(createDictionary("Omar", "Alabdalla", "17", "510", "9136877741"))
+PersonList.append(createDictionary("Omar", "Alabdalla", "17", "510", "1351241243"))
 PersonList.append(createDictionary("Eli", "Maffry", "18", '''6'9"''', "9133336858"))
 PersonList.append(createDictionary("Monish", "Chittampalli", "18", "510", "9132307340"))
 
@@ -53,12 +53,10 @@ while choice is True:
             print(i)
     elif userInput == str(2):
         for i in PersonList:
-            print(f"\n`{i}")
-            str(input("\nPress enter to continue\n"))
+            print(f"\n`{i} \n")
     elif userInput == str(3):
         aInput = str(input("Please input some variable from the list to see the whole thing "))
         print("\n")
         for i in PersonList:
             if aInput in i.values():
                 print(i)
-                str(input("\nPress enter to continue\n"))
