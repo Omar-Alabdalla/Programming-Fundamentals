@@ -3,7 +3,7 @@ import Weather
 weatherList = []
 using = True
 
-while using == True:
+while True:
     userIn = str(input("\nInput (1) if you want to search a new zipcode, or (2) if you want to search all the zipcodes you've searched already. "))
     if userIn == "1":
         userInput = str(input("\nInput a zipcode to search: "))
